@@ -85,16 +85,22 @@ Grid 갱신 후
 
 <img width="743" height="994" alt="image" src="https://github.com/user-attachments/assets/9d8becc2-15c5-40d5-ba19-eb2934d3c4e0" />
 
-AStarPathGrid, AStarPathFinder 컴포넌트가 필요합니다. (AStarPathGridDrawer, AStarPathDrawer는 렌더링 목적으로 필요함)
+AStarPathGrid, AStarPathFinder 컴포넌트가 필요합니다. 
+
+(AStarPathGridDrawer, AStarPathDrawer는 렌더링 목적으로 필요함)
 
 <img width="740" height="650" alt="image" src="https://github.com/user-attachments/assets/ba66201a-cdf4-4f08-a342-4ce92f1a55b2" />
 
-AStarPathGridGenerator 컴포넌트가 필요합니다. (AStarPathGridPreviewer는 렌더링 목적으로 필요함)
+AStarPathGridGenerator 컴포넌트가 필요합니다. 
+
+(AStarPathGridPreviewer는 렌더링 목적으로 필요함)
 
 <img width="776" height="1011" alt="image" src="https://github.com/user-attachments/assets/573ea857-a08a-4dcd-a0cf-4fc7a0e8d4e1" />
 <img width="769" height="1009" alt="image" src="https://github.com/user-attachments/assets/e19a4476-2b85-4eab-b230-6df6c9da3566" />
 
-Floor 타일과 Block 타일이 필요합니다. Floor 타일을 기반으로 Floor 타일 영역에 존재하는 Block 타일을 기준으로 경로 탐색 시 이동 가능 여부를 결정합니다.
+Floor 타일과 Block 타일이 필요합니다. 
+
+Floor 타일을 기반으로 Floor 타일 영역에 존재하는 Block 타일을 기준으로 경로 탐색 시 이동 가능 여부를 결정합니다.
 
 ## ✅ Grid 생성 및 Scriptable Object 저장 방법
 <img width="727" height="595" alt="image" src="https://github.com/user-attachments/assets/7373db95-fbbb-469d-ab45-d6a599c6d759" />
