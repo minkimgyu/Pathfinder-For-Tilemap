@@ -10,6 +10,19 @@ A* 알고리즘을 기반으로 개발된 Tilemap 기반 Pathfinder입니다.
 
 Unity (C#)
 
+# ✨ 성능
+<img width="674" height="688" alt="image" src="https://github.com/user-attachments/assets/f076c585-1b72-4715-9d0a-8c5d7414140f" />
+<img width="674" height="685" alt="image" src="https://github.com/user-attachments/assets/54410bb5-12fb-47cc-a02f-580754d96562" />
+
+32 * 42 맵 기준
+- TargetWeight가 1인 경우, 탐색 시간 0.64ms
+- TargetWeight가 2인 경우, 탐색 시간 0.19ms
+
+## 최적화 요소
+1. Heap을 활용한 OpenList 적용
+2. 주변 노드 캐싱을 통한 불필요한 탐색 횟수 줄임
+3. Weighted Pathfinding을 활용한 최적화
+
 # ✨ 주요 기능
 
 ## ✅ Grid 정보 렌더링 (이동 가능 여부, 노드 가중치)
