@@ -4,7 +4,7 @@ A* 알고리즘을 기반으로 개발된 Tilemap 기반 Pathfinder입니다.
 
 <img width="512" height="512" src="https://github.com/user-attachments/assets/1ddae1a9-1e59-4cd7-8f3c-193550d4604d" alt="Main"/>
 
-[사용 방법 섹션으로 이동](#-사용-방법)
+[사용 방법으로 이동](#-사용-방법)
 
 # 🛠️ 개발 도구
 
@@ -15,7 +15,7 @@ Unity (C#)
 
 32 * 42 맵 기준, 목표 가중치(TargetWeight)가 2인 경우 탐색 시간 0.19ms
 
-## 최적화 요소
+## 적용한 최적화 요소
 1. Heap을 활용한 OpenList 적용
 2. 주변 노드 캐싱을 통한 불필요한 탐색 횟수 줄임
 3. Weighted Pathfinding을 활용한 최적화
