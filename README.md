@@ -17,9 +17,9 @@ Unity (C#)
 에디터 상에서 각 노드의 상태를 직관적으로 확인할 수 있도록 정보를 시각화했습니다.
 
 <img width="318" height="417" alt="image" src="https://github.com/user-attachments/assets/43836e96-7a48-4da3-b6a1-9a668fd5a683" />
-
 <img width="508" height="507" alt="image" src="https://github.com/user-attachments/assets/00756c87-8d30-455c-8fd4-6481564eacec" />
 
+좌: 노드 이동 가능 여부, 우: 노드 가중치
 
 ## ✅ 경로 탐색 정보 렌더링
 
