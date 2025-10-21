@@ -92,6 +92,18 @@ Grid 갱신 후
 
 ## ✅ Grid 정보, 경로 탐색 정보 렌더링 방법
 
+Draw Type를 바꾸면서 렌더링 되는 정보를 바꿀 수 있습니다. 또한 Color 항목의 데이터를 바꾸며 보기 좋은 색으로 커스터마이징 할 수 있습니다.
+
+Size 항목을 조절하여 렌더링 되는 노드 크기를 조절할 수 있습니다.
+
+<img width="760" height="592" alt="image" src="https://github.com/user-attachments/assets/88a49800-d1f2-4e29-8c24-135aa92b8161" />
+
+AStarPathGridPreviewer를 통해서 Scriptable Object에 저장된 Grid 정보 미리 보기 가능 (에디터 모드에서 가능)
+
+<img width="574" height="618" alt="image" src="https://github.com/user-attachments/assets/5394da54-ebdb-4989-860a-71730c3c5aba" />
+
+AStarPathGridDrawer를 통해서 AStarPathGrid의 Grid 정보를 바탕으로 미리 보기 가능 (플레이 모드에서 가능)
+
 ## ✅ Grid 갱신 방법
 
 <img width="454" height="330" alt="image" src="https://github.com/user-attachments/assets/c686069f-496e-40b3-96fd-d6447cbced87" />
