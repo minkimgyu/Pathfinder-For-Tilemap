@@ -125,9 +125,9 @@ AStarPathGridPreviewer를 통해서 Scriptable Object에 저장된 Grid 정보 �
 
 AStarPathGridDrawer를 통해서 AStarPathGrid의 Grid 정보를 바탕으로 미리 보기 가능 (플레이 모드에서 가능)
 
-AStarPathFinder의 Trace Path 항목과 AStarPathGridDrawer의 Draw Path 항목을 모두 체크해야 경로를 확인할 수 있습니다.
+**AStarPathFinder의 Trace Path 항목과 AStarPathGridDrawer의 Draw Path 항목을 모두 체크해야 경로를 확인할 수 있습니다.**
 
-경로 확인이 필요 없는 경우, 최적화를 위해 Trace Path, Draw Path를 모두 꺼주십시오
+**경로 확인이 필요 없는 경우, 최적화를 위해 Trace Path, Draw Path를 모두 꺼주십시오**
 
 ## ✅ Grid 갱신 방법
 
@@ -135,7 +135,7 @@ AStarPathFinder의 Trace Path 항목과 AStarPathGridDrawer의 Draw Path 항목�
 
 AStarPathGrid 클래스 내부의 RebuildGrid 함수를 호출하면 됩니다. 
 
-전체 범위를 갱신하려면 매개 변수를 넣지 않고 호출하고 일부 범위를 갱신하려면 매개 변수로 topLeft, bottomRight 인덱스를 넣어주면 됩니다.
+**전체 범위를 갱신하려면 매개 변수를 넣지 않고 호출하고 일부 범위를 갱신하려면 매개 변수로 topLeft, bottomRight 인덱스를 넣어주면 됩니다.**
 
 
 ## ✅ 가중치 조절 방법
@@ -143,5 +143,5 @@ AStarPathGrid 클래스 내부의 RebuildGrid 함수를 호출하면 됩니다.
 
 AStarPathGridGenerator 클래스 내부의 SetTerrainPenaltyBias 함수를 수정하면 됩니다. 
 
-노드의 TerrainWeight는 -1 ~ 1 범위로 값이 지정되고 경로 탐색 과정에서 -1이에 가까울수록 우선하고, 1에 가까울수록 기피하게 됩니다.
+**노드의 TerrainWeight는 -1 ~ 1 범위로 값이 지정되고 경로 탐색 과정에서 -1이에 가까울수록 우선하고, 1에 가까울수록 기피하게 됩니다.**
 
