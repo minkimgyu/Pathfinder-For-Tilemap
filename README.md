@@ -29,7 +29,7 @@ Unity (C#)
 
 노란색 노드: OpenList에 할당된 노드, 빨간색 노드: ClosedList에 할당된 노드
 
-## ✅ 타겟 크기를 기반으로 한 길찾기 기능 제공 (1x1, 3x3 등 다양한 크기 지원)
+## ✅ 타겟 크기를 기반으로 한 길찾기 기능 제공 (1x1, 3x3 크기 지원)
 
 유닛의 크기를 고려하여 타일 기준으로 1x1, 3x3 크기를 가진 유닛의 길찾기를 지원합니다.
 
@@ -62,6 +62,7 @@ Unity (C#)
 ## ✅ Grid Generator를 이용한 Grid 정보 Scriptable Object 저장 기능
 
 Tilemap 데이터를 기반으로 길찾기에 사용될 Grid 정보를 생성하고, 이를 Scriptable Object로 저장하여 관리할 수 있는 기능을 구현했습니다.
+
 <img width="425" height="331" alt="image" src="https://github.com/user-attachments/assets/3ea8534b-5f73-4df5-8665-a5740e067609" />
 
 ## ✅ 지형 정보 변경 시 Grid 갱신 기능 구현
@@ -86,4 +87,16 @@ Grid 갱신 후
 
 ## ✅ Grid 갱신 방법
 
-## ✅ 가중치 조절 방
+<img width="454" height="330" alt="image" src="https://github.com/user-attachments/assets/c686069f-496e-40b3-96fd-d6447cbced87" />
+AStarPathGrid 클래스 내부의 RebuildGrid 함수를 호출하면 됩니다. 
+
+전체 범위를 갱신하려면 매개 변수를 넣지 않고 호출하고 일부 범위를 갱신하려면 매개 변수로 topLeft, bottomRight 인덱스를 넣어주면 됩니다.
+
+
+## ✅ 가중치 조절 방법
+<img width="454" height="330" alt="image" src="https://github.com/user-attachments/assets/cf305b02-109e-451c-b07c-b784f6f76175" />
+
+AStarPathGridGenerator 클래스 내부의 SetTerrainPenaltyBias 함수를 수정하면 됩니다. 
+
+노드의 TerrainWeight는 -1 ~ 1 범위로 값이 지정되고 경로 탐색 과정에서 -1이에 가까울수록 우선하고, 1에 가까울수록 기피하게 됩니다.
+
