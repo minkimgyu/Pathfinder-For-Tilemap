@@ -16,6 +16,11 @@ Unity (C#)
 
 에디터 상에서 각 노드의 상태를 직관적으로 확인할 수 있도록 정보를 시각화했습니다.
 
+<img width="318" height="417" alt="image" src="https://github.com/user-attachments/assets/43836e96-7a48-4da3-b6a1-9a668fd5a683" />
+
+<img width="318" height="317" alt="image" src="https://github.com/user-attachments/assets/00756c87-8d30-455c-8fd4-6481564eacec" />
+
+
 ## ✅ 경로 탐색 정보 렌더링
 
 에디터 상에서 경로 탐색 과정 중 방문한 노드와 목표까지의 경로를 직관적으로 확인할 수 있도록 정보를 시각화했습니다.
