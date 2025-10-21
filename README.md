@@ -11,12 +11,9 @@ A* 알고리즘을 기반으로 개발된 Tilemap 기반 Pathfinder입니다.
 Unity (C#)
 
 # ✨ 성능
-<img width="674" height="688" alt="image" src="https://github.com/user-attachments/assets/f076c585-1b72-4715-9d0a-8c5d7414140f" />
 <img width="674" height="685" alt="image" src="https://github.com/user-attachments/assets/54410bb5-12fb-47cc-a02f-580754d96562" />
 
-32 * 42 맵 기준
-- TargetWeight가 1인 경우, 탐색 시간 0.64ms
-- TargetWeight가 2인 경우, 탐색 시간 0.19ms
+32 * 42 맵 기준, 목표 가중치(TargetWeight)가 2인 경우 탐색 시간 0.19ms
 
 ## 최적화 요소
 1. Heap을 활용한 OpenList 적용
@@ -61,16 +58,20 @@ Unity (C#)
 <img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/b3e69f9a-7ebf-459e-ba84-6ee7537e9c50" />
 <img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/dc00055e-184a-4917-9d88-f3206ebc17ca" />
 
+지형 가중치가 -1에 가까울수록 더 선호하고 1에 가까울수록 더 기피합니다.
+
 파란색 노드: 선호 노드, 빨간색 노드: 기피 노드
 
-그리고 h 가중치를 조절하여 목표 지향적으로 탐색할 수 있습니다. 이를 통해 목표 지점까지 탐색하는 노드를 줄일 수 있습니다.
+</br>
+
+h 가중치를 조절하여 목표 지향적으로 탐색할 수 있습니다. 이를 통해 목표 지점까지 탐색하는 노드를 줄일 수 있습니다.
 
 `F = G + H * TargetWeight`
 
 <img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/0413e727-5a60-428a-873a-8d94bd647f79" />
 <img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/5157ec82-b0f7-474f-9b8a-434af0aada63" />
 
-좌: 가중치가 1인 경우, 우: 가중치가 2인 경우
+좌: 목표 가중치가 1인 경우, 우: 목표 가중치가 2인 경우
 
 ## ✅ Grid Generator를 이용한 Grid 정보 Scriptable Object 저장 기능
 
