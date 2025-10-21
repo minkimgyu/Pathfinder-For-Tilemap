@@ -1,4 +1,4 @@
-# 🗺️ Pathfinder2D-For-Tilemap
+# 🗺️ Pathfinder For Tilemap
 
 Unity에서 사용 가능한 Tilemap 기반 Pathfinder입니다.
 A* 알고리즘을 기반으로 개발되었습니다.
