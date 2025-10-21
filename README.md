@@ -25,6 +25,10 @@ Unity (C#)
 
 에디터 상에서 경로 탐색 과정 중 방문한 노드와 목표까지의 경로를 직관적으로 확인할 수 있도록 정보를 시각화했습니다.
 
+<img width="387" height="507" alt="image" src="https://github.com/user-attachments/assets/c98f7f41-dc99-4b1c-b59a-0b51061a1acb" />
+
+노란색 노드: OpenList에 할당된 노드, 빨간색 노드: ClosedList에 할당된 노드
+
 ## ✅ 타겟 크기를 기반으로 한 길찾기 기능 제공 (1x1, 3x3 등 다양한 크기 지원)
 
 유닛의 크기를 고려하여 타일 기준으로 1x1, 3x3 크기를 가진 유닛의 길찾기를 지원합니다.
