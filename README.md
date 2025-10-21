@@ -36,6 +36,7 @@ Unity (C#)
 <img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/c5614a36-50ca-48a2-95a6-b7c09c6777e3" />
 <img width="389" height="511" alt="image" src="https://github.com/user-attachments/assets/1d7a395f-c7ce-4240-8997-11fd5e1d71f0" />
 
+좌: 1x1 탐색의 경우, 우: 3x3 탐색의 경우
 
 ## ✅ 가중치를 활용한 경로 탐색 구현
 
@@ -61,10 +62,21 @@ Unity (C#)
 ## ✅ Grid Generator를 이용한 Grid 정보 Scriptable Object 저장 기능
 
 Tilemap 데이터를 기반으로 길찾기에 사용될 Grid 정보를 생성하고, 이를 Scriptable Object로 저장하여 관리할 수 있는 기능을 구현했습니다.
+<img width="425" height="331" alt="image" src="https://github.com/user-attachments/assets/3ea8534b-5f73-4df5-8665-a5740e067609" />
 
 ## ✅ 지형 정보 변경 시 Grid 갱신 기능 구현
 
 게임 플레이 중 벽이 파괴되는 등 타일의 이동 가능 상태가 변경될 경우, Rebuild 기능을 통해 Grid 정보를 실시간으로 업데이트할 수 있습니다.
+
+<img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/f9a93eeb-6d33-4a0f-bafe-794732ea4fae" />
+<img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/3413db97-27a2-4273-a95c-0a03fad4f9fc" />
+
+Grid 갱신 전
+
+<img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/4bf03ad4-7bbb-4e02-ae6d-eed4ee934841" />
+<img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/8c2c4dfa-6d23-459a-a759-2e15eeb08f45" />
+
+Grid 갱신 후
 
 # ✨ 사용 방법
 
