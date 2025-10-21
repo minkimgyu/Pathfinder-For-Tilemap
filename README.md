@@ -33,12 +33,30 @@ Unity (C#)
 
 유닛의 크기를 고려하여 타일 기준으로 1x1, 3x3 크기를 가진 유닛의 길찾기를 지원합니다.
 
+<img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/c5614a36-50ca-48a2-95a6-b7c09c6777e3" />
+<img width="389" height="511" alt="image" src="https://github.com/user-attachments/assets/1d7a395f-c7ce-4240-8997-11fd5e1d71f0" />
+
+
 ## ✅ 가중치를 활용한 경로 탐색 구현
 
 각 타일에 가중치를 부여하여 g  가중치를 조절합니다. 이를 통해 길찾기 알고리즘이 특정 경로를 선호하거나 피하도록 설정할 수 있습니다.
 예를 들어, 늪지대 타일에 높은 가중치를 부여하면 유닛이 해당 지역을 우회하는 경로를 탐색하게 됩니다. 이를 통해 전략적인 유닛 이동을 구현할 수 있습니다.
 
+`F = G * TerrainWeight + H`
+
+<img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/b3e69f9a-7ebf-459e-ba84-6ee7537e9c50" />
+<img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/dc00055e-184a-4917-9d88-f3206ebc17ca" />
+
+파란색 노드: 선호 노드, 빨간색 노드: 기피 노드
+
 그리고 h 가중치를 조절하여 목표 지향적으로 탐색할 수 있습니다. 이를 통해 목표 지점까지 탐색하는 노드를 줄일 수 있습니다.
+
+`F = G + H * TargetWeight`
+
+<img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/0413e727-5a60-428a-873a-8d94bd647f79" />
+<img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/5157ec82-b0f7-474f-9b8a-434af0aada63" />
+
+좌: 가중치가 1인 경우, 우: 가중치가 2인 경우
 
 ## ✅ Grid Generator를 이용한 Grid 정보 Scriptable Object 저장 기능
 
