@@ -82,6 +82,13 @@ Grid 갱신 후
 # ✨ 사용 방법
 
 ## ✅ Grid 생성 및 Scriptable Object 저장 방법
+<img width="727" height="595" alt="image" src="https://github.com/user-attachments/assets/7373db95-fbbb-469d-ab45-d6a599c6d759" />
+<img width="1094" height="620" alt="image" src="https://github.com/user-attachments/assets/474f713c-c9fb-45b2-9387-b7c2a37dcb28" />
+
+1. 프로젝트 창에서 마우스 우클릭 -> Create - PathNode 클릭
+2. 바닥 타일맵과 벽 타일맵을 AStarPathGridGenerator의 Wall Tile, Ground Tile에 드래그 앤 드랍
+3. 생성한 노드를 AStarPathGridGenerator에 드래그 앤 드랍
+4. ... 클릭 후 GenerateGrid 클릭
 
 ## ✅ Grid 정보, 경로 탐색 정보 렌더링 방법
 
