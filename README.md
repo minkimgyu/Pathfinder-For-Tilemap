@@ -88,6 +88,7 @@ Grid 갱신 후
 ## ✅ Grid 갱신 방법
 
 <img width="454" height="330" alt="image" src="https://github.com/user-attachments/assets/c686069f-496e-40b3-96fd-d6447cbced87" />
+
 AStarPathGrid 클래스 내부의 RebuildGrid 함수를 호출하면 됩니다. 
 
 전체 범위를 갱신하려면 매개 변수를 넣지 않고 호출하고 일부 범위를 갱신하려면 매개 변수로 topLeft, bottomRight 인덱스를 넣어주면 됩니다.
