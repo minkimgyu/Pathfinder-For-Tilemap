@@ -4,6 +4,8 @@ A* 알고리즘을 기반으로 개발된 Tilemap 기반 Pathfinder입니다.
 
 <img width="512" height="512" src="https://github.com/user-attachments/assets/1ddae1a9-1e59-4cd7-8f3c-193550d4604d" alt="Main"/>
 
+[사용 방법 섹션으로 이동](#사용-방법)
+
 # 🛠️ 개발 도구
 
 Unity (C#)
