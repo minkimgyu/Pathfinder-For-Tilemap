@@ -98,7 +98,7 @@ AStarPathGridGenerator 컴포넌트가 필요합니다.
 <img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/573ea857-a08a-4dcd-a0cf-4fc7a0e8d4e1" />
 <img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/e19a4476-2b85-4eab-b230-6df6c9da3566" />
 
-Floor 타일과 Block 타일이 필요합니다. 
+Block 타일과 Floor 타일이 필요합니다. 
 
 Floor 타일 영역에 존재하는 Block 타일이 놓인 위치를 기준으로 경로 탐색 시 노드의 이동 가능 여부를 결정합니다.
 
