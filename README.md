@@ -100,7 +100,7 @@ AStarPathGridGenerator 컴포넌트가 필요합니다.
 
 Floor 타일과 Block 타일이 필요합니다. 
 
-Floor 타일을 기반으로 Floor 타일 영역에 존재하는 Block 타일을 기준으로 경로 탐색 시 이동 가능 여부를 결정합니다.
+Floor 타일 영역에 존재하는 Block 타일이 놓인 위치를 기준으로 경로 탐색 시 노드의 이동 가능 여부를 결정합니다.
 
 ## ✅ Grid 생성 및 Scriptable Object 저장 방법
 <img width="727" height="595" alt="image" src="https://github.com/user-attachments/assets/7373db95-fbbb-469d-ab45-d6a599c6d759" />
