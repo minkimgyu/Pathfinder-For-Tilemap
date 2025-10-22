@@ -97,6 +97,8 @@ Grid 갱신 후
 
 ## ✅ 기본 세팅
 
+릴리스 파일을 다운로드 받아서 프로젝트에 Import 해주세요.
+
 <img width="388" height="512" alt="image" src="https://github.com/user-attachments/assets/9d8becc2-15c5-40d5-ba19-eb2934d3c4e0" />
 
 AStarPathGrid, AStarPathFinder 컴포넌트가 필요합니다. 
