@@ -16144,7 +16144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pathGridGenerator: {fileID: 1858030926}
-  _pathNodeSO: {fileID: 11400000, guid: 5595c95fcb7aae64ba6558ced8dc131a, type: 2}
+  _pathNodeSO: {fileID: 11400000, guid: adc43b2692b3e2f4781bfb961a3965f4, type: 2}
 --- !u!114 &1499827806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16369,7 +16369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _wallTile: {fileID: 449324822}
   _groundTile: {fileID: 1296199684}
-  _pathNodeSO: {fileID: 11400000, guid: 5595c95fcb7aae64ba6558ced8dc131a, type: 2}
+  _pathNodeSO: {fileID: 11400000, guid: adc43b2692b3e2f4781bfb961a3965f4, type: 2}
 --- !u!114 &1858030927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16382,8 +16382,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd78993e27ee474e80767da44cee3e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _drawType: 2
-  _pathNodeSO: {fileID: 11400000, guid: 5595c95fcb7aae64ba6558ced8dc131a, type: 2}
+  _drawType: 0
+  _pathNodeSO: {fileID: 11400000, guid: adc43b2692b3e2f4781bfb961a3965f4, type: 2}
   _blockNodeColor: {r: 0.9254902, g: 0.22352941, b: 0.3764706, a: 1}
   _passNodeColor: {r: 0.29803923, g: 0.8784314, b: 1, a: 0.3}
   _priorityColor: {r: 0.29803923, g: 0.39607844, b: 1, a: 1}

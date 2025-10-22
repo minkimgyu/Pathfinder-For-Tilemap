@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3448ca8dc67cf8948885d5291ad2bbef, type: 3}
-  m_Name: TestMap
+  m_Name: WeightMap
   m_EditorClassIdentifier: 
   _aStarPathNodeData:
   - _column:
